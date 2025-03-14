@@ -3,8 +3,6 @@ clear all
 close all
 
 
-% Adding the folder that contains our written functions to the list of 
-% paths that MATLAB checks
 addpath('Functions_and_Subroutines')
 
 
