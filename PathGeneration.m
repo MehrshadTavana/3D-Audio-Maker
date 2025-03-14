@@ -1,5 +1,4 @@
-% This file is to create the desired angle vectors (azimuth and elevation) 
-% in addition to the range vector for creating a 3D audio file. 
+ % in addition to the range vector for creating a 3D audio file. 
 %
 % The specifications are as follows:
 %
