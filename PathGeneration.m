@@ -15,7 +15,6 @@
 % range as well.
 
 
-% finding the time stamp of each sample according to the sampling rate
 samp_time           = [0 : length(Input_Audio_samples)-1] / f_sampling_input;
 
 % initializing the desired angle/range vectors
