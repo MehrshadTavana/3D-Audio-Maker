@@ -1,5 +1,3 @@
- % in addition to the range vector for creating a 3D audio file. 
-%
 % The specifications are as follows:
 %
 %   time (s)    elevation (degree)      azimuth (degree)        range (cm)
