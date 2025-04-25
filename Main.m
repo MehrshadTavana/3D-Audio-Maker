@@ -1,6 +1,6 @@
 clc
 clear all
-close all
+
 
 
 addpath('Functions_and_Subroutines')
