@@ -1,4 +1,6 @@
-
+clc
+clear
+close all
 
 
 
