@@ -1,5 +1,5 @@
 clc
-clear all
+
 
 
 
