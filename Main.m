@@ -7,11 +7,6 @@ close all
 
 addpath('Functions_and_Subroutines')
 
-
-
-%%
-
-
 %%%%%%%%%%%%%
 % reading the input Audio
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
