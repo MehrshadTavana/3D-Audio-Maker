@@ -19,9 +19,6 @@ ind1                = (innerproducts1 >= 0.9);
 ind2                = (innerproducts2 >= 0.9);
 
 
-%%%%%%%%%%%%%%%%%%%%%%
-% interpolating to find the impulse responses
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Left ear with range1
 Left_ImpResp1       = recording1.ImpResp_LeftEar(: , ind1) * (innerproducts1(ind1).^2);
 Left_ImpResp1       = Left_ImpResp1 / sum(innerproducts1(ind1).^2);
