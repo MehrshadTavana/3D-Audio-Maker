@@ -1,9 +1,4 @@
 function [Left_ImpResp , Right_ImpResp]  = ImpResp_interpolator(SourcePosition , recording1 , recording2)
-%
-% [Left_ImpResp , Right_ImpResp]  = ImpResp_interpolator(SourcePosition , recording1 , recording2)
-%
-% This function estimates the impulse response of an audio source located
-% at a given position with respect to head position of a listener for each 
 % of the left and right ears.
 %
 % "SourcePosition" is a strcuture that includes the location of the source 
