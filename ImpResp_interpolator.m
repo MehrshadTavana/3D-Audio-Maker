@@ -1,28 +1,4 @@
 function [Left_ImpResp , Right_ImpResp]  = ImpResp_interpolator(SourcePosition , recording1 , recording2)
-% of the left and right ears.
-%
-% "SourcePosition" is a strcuture that includes the location of the source 
-% with respect to the listener:
-%       SourcePosition.elevation :  the elevation of the source in degrees
-%       SourcePosition.azimuth :    the azimuth of the source in degrees
-%       SourcePosition.range :      the distance of the source in cm
-%
-% "recording1" and "recording2" are two strcutures that consist of a number
-% of measured impulse responses (to both ears) for a source located at 
-% multiple locations with fixed range. The used range in "recording1" is
-% different from "recording2":
-%       recording.azimuth_degree:       the vector of azimuth angles
-%       recording.elevation_degree:     the vector of elevation angles
-%       recording.range_cm:             the value of range which is fixed
-%       recording.ImpResp_LeftEar:      the matrix of impulse responses (left ear); each column is an impulse response
-%       recording.ImpResp_RightEar:     the matrix of impulse responses (right ear); each column is an impulse response
-%       recording.fs_Hz:                the sampling frequency used in recordings
-%       recording.number_of_angles:     the sampling frequency used in recordings
-
-
-% for a unit-length vector in the direction of "SourcePosition", we find 
-% the inner-product with the unit-length vectors in the direction of all
-% measured points in each of the recordings
 
 innerproducts1      = zeros(recording1.number_of_angles  ,  1);
 t_recording1 = 1 : recording1.number_of_angles;
