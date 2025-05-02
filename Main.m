@@ -1,3 +1,4 @@
+clc
 addpath('Functions_and_Subroutines')
 
 %%%%%%%%%%%%%
