@@ -1,7 +1,3 @@
-clc
-clear
-
-
 addpath('Functions_and_Subroutines')
 
 %%%%%%%%%%%%%
