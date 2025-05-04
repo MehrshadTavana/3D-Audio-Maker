@@ -1,3 +1,7 @@
+clc
+clear
+close all
+
 addpath('Functions_and_Subroutines')
 
 %%%%%%%%%%%%%
