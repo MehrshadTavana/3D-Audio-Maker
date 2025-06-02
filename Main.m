@@ -9,14 +9,6 @@ addpath('Functions_and_Subroutines')
 % playing the audio
 sound(Input_Audio_samples , f_sampling_input);
 
-
-
-%%
-
-
-%%%%%%%%%%%%%
-% moving-source location
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 PathGeneration
 
 
