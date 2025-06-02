@@ -4,9 +4,6 @@ close all
 
 addpath('Functions_and_Subroutines')
 
-%%%%%%%%%%%%%
-% reading the input Audio
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [Input_Audio_samples , f_sampling_input]    = audioread('./InputData/MonoChannelAudio.wav');
 
 % playing the audio
