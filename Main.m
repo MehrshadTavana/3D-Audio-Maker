@@ -11,14 +11,6 @@ sound(Input_Audio_samples , f_sampling_input);
 
 PathGeneration
 
-
-
-%%
-
-
-%%%%%%%%%%%%%
-% loading the recordings
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 load('./Recordings/Impulse_Responses.mat');
 
 
