@@ -30,13 +30,13 @@ Left_ImpResp        = ( (recording2.range_cm - SourcePosition.range) * Left_ImpR
                         (SourcePosition.range - recording1.range_cm) * Left_ImpResp2 ) / ...
                         (recording2.range_cm - recording1.range_cm);
 
-% Right ear with range1
+
 Right_ImpResp1      = recording1.ImpResp_RightEar(: , ind1) * (innerproducts1(ind1).^2);
 Right_ImpResp1      = Right_ImpResp1 / sum(innerproducts1(ind1).^2);
-% Right ear with range 2
+
 Right_ImpResp2      = recording2.ImpResp_RightEar(: , ind2) * (innerproducts2(ind2).^2);
 Right_ImpResp2      = Right_ImpResp2 / sum(innerproducts2(ind2).^2);
-% combining the two ranges
+
 Right_ImpResp       = ( (recording2.range_cm - SourcePosition.range) * Right_ImpResp1 + ...
                         (SourcePosition.range - recording1.range_cm) * Right_ImpResp2 ) / ...
                         (recording2.range_cm - recording1.range_cm);
