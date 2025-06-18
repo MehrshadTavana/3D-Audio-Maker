@@ -1,6 +1,4 @@
-% the main loop for generating the outputs; instead of sample by sample
-% generation, we consider blocks of length "jump_length" to expedite
-jump_length             = 100;
+jump_length             = 110;
 %
 h                       = waitbar(0 , 'Please wait');
 for jump_ind = 1 : ceil(length(Input_Audio_samples) / jump_length)
