@@ -10,7 +10,7 @@ PathGeneration
 
 load('./Recordings/Impulse_Responses.mat');
 
-
+%% You can run this here too
 % generating stereo output
 % defining the output audio samples for the left and right ears
 Output_Audio_Left       = zeros(length(Input_Audio_samples) + far.ImpResp_Length , 1);
