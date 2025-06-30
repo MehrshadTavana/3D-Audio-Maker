@@ -9,7 +9,7 @@ sound(Input_Audio_samples , f_sampling_input);
 PathGeneration
 
 load('./Recordings/Impulse_Responses.mat');
-
+%%% Be sure everything is installed
 %% You can run this here too
 % generating stereo output
 % defining the output audio samples for the left and right ears
