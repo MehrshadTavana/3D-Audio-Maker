@@ -1,5 +1,5 @@
 %% Functions
-%% Run Functions
+%% Run Functions here 
 function [Left_ImpResp , Right_ImpResp]  = ImpResp_interpolator(SourcePosition , recording1 , recording2)
 
 innerproducts1      = zeros(recording1.number_of_angles  ,  1);
