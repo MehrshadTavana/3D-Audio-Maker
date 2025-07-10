@@ -1,4 +1,4 @@
-%% Run main here
+%% Run main here not anywhere else
 addpath('Functions_and_Subroutines')
 
 [Input_Audio_samples , f_sampling_input]    = audioread('./InputData/MonoChannelAudio.wav');
